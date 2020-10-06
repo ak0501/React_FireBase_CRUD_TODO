@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
+
+
 import "./app.css";
 import db from "./firebase-config";
 import firebase from "firebase";
+
 
 
 import {
@@ -23,7 +26,7 @@ import {
   DialogContent,
   DialogActions,
 } from "@material-ui/core";
-require("dotenv").config();
+
 
 function App() {
   const [todos, setTodos] = useState([]);
